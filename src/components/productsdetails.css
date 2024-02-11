@@ -1,0 +1,155 @@
+.productsdetailsec {
+  height: 100vh;
+}
+
+.productsdetailcon {
+  height: 30vh;
+  background: url("../assets/background6.jpg");
+  background-position: center;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 4rem;
+  line-height: 1.5;
+}
+
+.productsdetailstitle {
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.productsdetailsspan {
+  font-size: 18px;
+}
+
+.productsdetailbigcon {
+  height: 100vh;
+}
+.productsdetailsmallcon {
+  height: 70vh;
+}
+#smallbox {
+  display: flex;
+}
+
+.smallcontainerone,
+.smallcontainertwo {
+  height: 70vh;
+  width: 100%;
+}
+
+.smallcontainertwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2rem;
+}
+.productparagraph {
+  margin-top: 40px;
+}
+
+.add-to-card {
+  position: relative;
+  text-decoration: none;
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  overflow: hidden;
+  background: linear-gradient(to right, #fc8e5f 50%, #b36b35 50%);
+  background-size: 200% 100%;
+  transition: background-position 0.3s ease;
+}
+
+.add-to-card:hover {
+  background-position: -100% 0;
+}
+
+.counterbtn {
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  align-items: center;
+  text-align: center;
+  border-radius: 40px;
+}
+
+.counternumber {
+  font-size: 20px;
+}
+
+.add-card {
+  display: flex;
+}
+
+.hearticon {
+  margin-top: 13px;
+  margin-left: 10px;
+  width: 50px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.hearticon:hover {
+  background: #fc8e5f;
+}
+
+.bigimg {
+  width: 500px;
+  height: 200px;
+  background: url("../assets/bigimg.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.smallcontainerone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.smallimg {
+  width: 100px;
+  height: 100px;
+}
+
+.smallimgs {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#smallimgone {
+  background: url("../assets/smallimg1.jpg") no-repeat center center;
+  background-size: cover;
+  cursor: pointer;
+}
+#smallimgtwo {
+  background: url("../assets/smallimg2.jpg") no-repeat center center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#smallimgthree {
+  background: url("../assets/smallimg3.jpg") no-repeat center center;
+  background-size: cover;
+  cursor: pointer;
+}

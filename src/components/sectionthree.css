@@ -1,0 +1,38 @@
+.secthree {
+  height: 80vh;
+}
+
+.secthreecon {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.secthreeconsmall {
+  width: 100%;
+  height: 80vh;
+}
+
+#firstcon {
+  background: url("../assets/background2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#secondcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.secondtitle {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}

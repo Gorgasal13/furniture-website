@@ -1,0 +1,112 @@
+.inspirepage {
+  height: 70vh;
+  display: flex;
+}
+
+.inspirecon {
+  height: 70vh;
+  width: 100%;
+}
+
+.insta-icon {
+  color: #b36b35;
+  margin: 20px;
+}
+.insta-title {
+  margin: 0 0 0 20px;
+}
+
+.insta-p {
+  margin: 20px;
+  color: gray;
+}
+
+.discover-more-link-three {
+  position: relative;
+  text-decoration: none;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #b36b35;
+  font-size: 20px;
+  font-weight: bold;
+  overflow: hidden;
+  background: linear-gradient(to right, transparent 50%, #b36b35 50%);
+  background-size: 200% 100%;
+  transition: background-position 0.3s ease;
+  border: 1px solid #b36b35;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+
+.discover-more-link-three:hover {
+  background-position: 100% 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+#insta-con {
+  cursor: pointer;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s ease, filter 0.3s ease, transform 0.3s ease;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(50%);
+}
+
+#insta-con:hover {
+  background-color: white;
+  filter: grayscale(0%);
+  transform: translateY(-5px);
+  color: white;
+}
+
+#insta-con::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: translateY(100%);
+}
+
+#insta-con:hover::before {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#insta-con:nth-last-child(1) {
+  background: url("../assets/instabackground2.jpg");
+  background-position: center;
+  background-size: 100%;
+  z-index: 1;
+}
+
+#insta-con:nth-last-child(2) {
+  background: url("../assets/instabackground1.jpg");
+  background-position: center;
+  background-size: 100%;
+  z-index: 1;
+}

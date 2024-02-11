@@ -1,0 +1,130 @@
+/* .signsec {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url("../assets/background3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+} */
+
+.signsec {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.signsec::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../assets/homebackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  filter: brightness(1);
+  transition: filter 0.3s ease-in-out;
+  z-index: -1;
+}
+
+.darken-background::before {
+  filter: brightness(0.6);
+}
+
+.signcon {
+  height: 500px;
+  width: 500px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: transparent;
+  color: white;
+}
+
+.signform {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 150px;
+}
+
+.signinput {
+  width: 350px;
+  height: 45px;
+  margin-bottom: 20px;
+  padding: 1rem;
+  border-radius: 5px;
+  border-bottom: 2px solid white;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+}
+
+.signinput::placeholder {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.signlabel {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.remember {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.signbtn {
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 8px solid black;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #fc8e5f;
+  color: white;
+}
+
+.signbtn:hover {
+  background-color: #b36b35;
+  transition: all 0.3s;
+}
+
+.forgotpassword {
+  color: white;
+  text-decoration: none;
+}
+.input-container {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+}

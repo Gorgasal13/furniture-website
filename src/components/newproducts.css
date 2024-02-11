@@ -1,0 +1,142 @@
+.productcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 90vh;
+  width: 100vw;
+}
+
+.centered {
+  align-items: center;
+}
+
+.products-div {
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+.products-con {
+  height: 400px;
+  width: 380px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.main-con {
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70%;
+  margin-bottom: 100px;
+}
+
+.products-title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.products-title h1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.products-title span {
+  color: gray;
+}
+
+.products-choose {
+  width: 100%;
+  height: 40px;
+  margin-top: 30px;
+}
+
+.products-choose ul {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 50px;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 100px;
+}
+
+.products-choose ul li {
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+.products-choose ul li:hover {
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+  border-bottom: 2px solid #b36b35;
+}
+
+#pro-one {
+  background: url("../assets/sofa1.jpg");
+}
+
+#pro-two {
+  background: url("../assets/sofa2.jpg");
+}
+
+#pro-three {
+  background: url("../assets/sofa3.jpg");
+}
+#pro-four {
+  background: url("../assets/chair1.jpg");
+}
+#pro-five {
+  background: url("../assets/chair2.jpg");
+}
+#pro-six {
+  background: url("../assets/table1.jpeg");
+}
+#pro-seven {
+  background: url("../assets/table2.jpg");
+}
+#pro-eight {
+  background: url("../assets/bed1.jpg");
+}
+
+#pro-nine {
+  background: url("../assets/decore1.jpg");
+}
+
+#pro-one,
+#pro-two,
+#pro-three,
+#pro-four,
+#pro-five,
+#pro-six,
+#pro-seven,
+#pro-eight,
+#pro-nine {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.first-con,
+.second-con,
+.therd-con {
+  display: flex;
+  gap: 20px;
+}
